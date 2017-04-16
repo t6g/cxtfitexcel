@@ -1,0 +1,13 @@
+Help – Aquifer Parameters
+
+Groundwater darcy velocity – mean groundwater darcy velocity (m/d) 
+
+Aquifer porosity – porosity of aquifer accessible to solute by advection or diffusion (-) 
+
+Longitudinal dispersivity – dispersivity in direction of groundwater flow (m)
+
+Transverse dispersivity – dispersivity in horizontal direction transverse to groundwater flow (m)
+
+Aquifer thickness – average aquifer thickness within plume extent (m)
+
+Retardation factor – retardation factor for contaminant adsorption by aquifer solid phase (-)

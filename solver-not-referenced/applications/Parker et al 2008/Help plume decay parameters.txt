@@ -1,0 +1,34 @@
+Help – Dissolved plume decay parameters
+
+The dissolved plume may be classified into two zones with different biodecay and/or volatilization parameters: zone 1 extends a specified distance downgradient of the source and zone 2 invludes the remainder of the plume. 
+
+Aqueous decay coefficients – First-order biodecay coefficients for each zone (1/d)
+
+Distance from source to zone 2 – This is the length of zone 1. If only a single zone is to be modeled, input a distance larger than the highest x-coordinate of interest. (m)
+
+Consider volatilization? – enter “yes” to compute mass losses from groundwater due to volatilization and input volatilization parameters; else enter ”no”  
+
+Unsat zone darcy velocity (+down) – Average darcy velocity in unsaturated zone. Positive for recharge or negative for net evaporation. (m/d)
+
+Unsat zone total porosity – Average total porosity in unsaturated zone (-)
+
+Unsat zone air-filled porosity – Average air-filled porosity in unsaturated zone (-)
+
+Unsat zone thickness – Distance from ground surface to water table (m)
+
+Relative barometric P range – Average range in barometric pressure divided by atmospheric pressure (-)
+
+Period of barometric P fluctuation – Average peal to peak duration of barometric pressure fluctuations. Various cycle periods may exist. Select the range and period with the largest range/period ratio. (d)
+
+Free air diffusion coefficient – Diffusion coefficient in free air for chemical of concern (m2/d)
+
+Henry’s coefficient – Dimensionless Henry’s coefficient for the chemical of concern (-)
+
+Vertical GW dispersivity – Vertical dispersivity in the aquifer which roughly corresponds to the correlation scale of vertical permeability variations – usually a fraction of a meter. (m)
+
+Vertical vapor dispersivity – Vertical dispersivity for vapor transport due to cyclic pressure fluctuations. Little data available unless a pilot test is performed for this purpose. Otherwise use same guestimate as GW dispersivity. (m)
+
+Volatilization coefficient – This is the computed first-order volatilization rate coefficient (1/d)
+
+Total plume decay coefficient – sum of aqueous decay coefficient and volatilization coefficient if considered (1/d)
+

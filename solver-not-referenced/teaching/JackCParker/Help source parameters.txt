@@ -1,0 +1,23 @@
+Help – DNAPL Source Zone Parameters
+
+Estimate of release date – initial date of contaminant source release in format xxxx.yy where xxxx is the year and yy is the fraction of a year.
+
+Source calibration date – date at which source mass flux and remaining source mass is estimated in xxxx.yy format 
+
+Mass flux on calibration date – Source mass loading rate on calibration date (kg/d)
+
+Source mass on calibration date – Mass of contaminant remaining in source on calibration date (kg)
+
+Source zone width – width of source zone transverse to flow direction (m)
+
+Source depletion exponent – exponent of relative mass remaining in source mass transfer function. Expected to range from ~0.5 for lens or pool-dominated DNAPL sources to ~1.5 for finger-dominated DNAPL distributions (-) 
+
+Source biodecay factor – ratio of source zone biodecay rate to source zone aqueous dissolution rate, i.e., ratio of flow-weighted daughter product concentration from source zone to total parent + daughter product concentration.
+
+Remediation date – date at which remediation was completed in xxxx.yy format. If remediation is NOT being modeled, input the source calibration date as the remediation date, 0 for Remediation Mass Removal, 1 for Mass Transfer Enhancement Factor, 1 for Source Biodecay Enhancement Factor, and 1 for Aqueous Decay Enhancement Factor.
+
+Remediation mass removal – Source mass removal due to remediation (kg)
+
+Mass transfer enhancement factor – Ratio of mass-normalized mass transfer coefficient after remediation to that immediately prior, including effects of changes in source zone hydraulic flux (i.e. 1 signifies no enhancement).   
+ 
+Source biodecay enhancement factor – ratio of source biodecay factor after remediation to that prior to remediation  (i.e. 1 signifies no enhancement).  
